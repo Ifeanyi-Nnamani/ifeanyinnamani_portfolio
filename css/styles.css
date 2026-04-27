@@ -246,8 +246,7 @@ header {
     border: 1px solid rgb(232, 214, 214);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.08)
-    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -501,19 +500,8 @@ footer {
 footer p {
     font-size: 0.85rem;
     color: #6b7280;
-    margin: 0;
-    
+    margin: 0;    
 }
-
-
-
-
-
-
-
-
-
-
 /* For Tablets */
 @media (min-width: 768px) {
 /* Navigation */
