@@ -13,12 +13,31 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     line-height: 1.6;
     color: #333;
+
 }
 
 h1, h2, h3, .logo, .section-title, nav-links a {
     font-family:"Montserrat Alternates", sans-serif; 
 }
+.logo{
+    width: 200px;
 
+}
+.logo h1 {
+    width: 20ch;
+    text-wrap: nowraps;
+    overflow:hidden;
+    animation: typing 2s steps(20)infinite alternate-reverse;
+    
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
 a {
     text-decoration: none; /* to remove underline on all anchor tags */
     color: white;
